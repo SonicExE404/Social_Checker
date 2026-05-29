@@ -18,4 +18,6 @@ For now the tool can detect unclaimed :
  -LinkedIN
 
 # How to use
-```git clone dajsk```bash
+```bash
+git clone dajsk
+```
