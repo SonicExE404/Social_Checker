@@ -19,7 +19,7 @@ For now the tool can detect unclaimed :
 
 # How to use
 ```bash
-git clone https://github.com/SonicExE404/Social_Checker/blob/main/social_checker.py
+git clone https://github.com/SonicExE404/Social_Checker.git
 ```
 -for help type 
 ```bash
@@ -29,4 +29,4 @@ python social_checker.py -h
 ```bash
 python social_checker.py -u "https://example.com"
 ```
-and you can test all of these by downloading the html page and use live server in vscode or use apache or any web server.
+and you can test all of these by using the html page with live server in vscode or use apache or any web server.
