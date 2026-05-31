@@ -29,3 +29,4 @@ python social_checker.py -h
 ```bash
 python social_checker.py -u "https://example.com"
 ```
+and you can test all of these by downloading the html page and use live server in vscode or use apache or any web server.
