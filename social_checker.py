@@ -54,19 +54,19 @@ soup = BeautifulSoup(full_page, "html.parser")
 
 for a in soup.find_all("a"):
     href = a.get("href")
-    if "facebook.com" in href:
+    if href and "facebook.com" in href:
         facebook_links.append(href)
         f = 1
-    elif "youtube.com" in href:
+    elif href and "youtube.com" in href:
         youtube_links.append(href)
         y = 1
-    elif "instagram.com" in href:
+    elif href and "instagram.com" in href:
         instagram_links.append(href)
         i = 1
-    elif "github.com" in href:
+    elif href and "github.com" in href:
         github_links.append(href)
         g = 1
-    elif "linkedin.com" in href:
+    elif href and "linkedin.com" in href:
         linkedin_links.append(href)
         l = 1
 
