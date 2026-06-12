@@ -1,39 +1,44 @@
+```
+     _________             .__       .__                    
+    /   _____/ ____   ____ |__|____  |  |                     
+    \_____  \ /  _ \_/ ___\|  \__  \ |  |                            ___------__
+    /        (  <_> )  \___|  |/ __ \|  |__                    |\__-- /\       _-
+   /_______  /\____/ \___  >__(____  /____/                    |/    __      -
+           \/            \/        \/                          //\  /  \    /__
+         _________ .__                   __                    |  o|  0|__     --_
+         \_   ___ \|  |__   ____   ____ |  | __ ___________   \\____-- __ \   ___-
+         /    \  \/|  |  \_/ __ \_/ ___\|  |/ // __ \_  __ \  (@@    __/  / /_
+         \     \___|   Y  \  ___/\  \___|    <\  ___/|  | \/   -_____---   --_
+          \______  /___|  /\___  >\___  >__|_ \\___  >__|      //  \ \\   ___-
+                 \/     \/     \/     \/     \/    \/         //|\__/  \\  \
+                                                              \_-\_____/  \-\ 
+                                                                 // \\--\|   
+                                                             ____//  ||_
+                                                            /_____\ /___\   
+                           Author: SonicExE
+                            Version: 1.4.7
+```
+
 # Social_Checker
-just a simple tool for bug hunters to check unclaimed social accounts.
-
-
-
-## Not realy important
-   ### Why i made this tool?
-when i was reading some writeups about bugs as usual i found a guy said that he found a "Broken Link Hijacking attack"
-where he found that the social links are unlcaimed wich is a bug (you can run some scams or ...) , so when i searched more about i didn't found
-people talking about it so i decided to make a simple tool ( i am still a beginner \\_😅_/ ) that can detect these unclaimed social accounts ,
-and also to practice my coding skill and getting in common with sending requests.
+just a simple tool for bug hunters to check unclaimed social accounts for (Social Media Account Takeover) bug.
 
 # social Media
 For now the tool can detect unclaimed :
- -Facebook
- -Instagram
- -Youtube
- -Github
- -LinkedIN
+ -   Facebook
+ -   Instagram
+ -   Youtube
+ -   Github
+ -   LinkedIN
 
-# How to use
-```bash
-git clone https://github.com/SonicExE404/Social_Checker.git
-```
--for help type 
-```bash
-python social_checker.py -h
-```
--to run command
-```bash
-python social_checker.py -u "https://example.com"
-```
-and you can test all of these by using the html page with live server in vscode or use apache or any web server.
-if it says "cooked" that mean claimed elif unclaimed.
+## Usage
 
-## future update
-for now the tool is just on its basic form and its not powerful but it is doing the work , and the code is kinda messy cz as i said i am still practicing,
-and i am willing to add some good features like do txt file instead of only -u and adding more social medias .
-stay tuned.....
+Short Form    | Long Form     | Description
+------------- | ------------- |-------------
+-u            | --url         | check social pages in one url , form : http://example.com/
+-f            | --file        | uses a txt file instead of one url
+-r            | --rate        | to limit req/s (can only used with -f) default : 500 req/s
+-h            | --help        | to show help msg
+
+you can use html.html page which contain all of social account the tool capable of to detect.
+##issues?
+if you find any issue or suggetions feel free to post in https://github.com/SonicExE404/Social_Checker/issues
