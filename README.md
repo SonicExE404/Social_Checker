@@ -15,8 +15,8 @@
                                                                  // \\--\|   
                                                              ____//  ||_
                                                             /_____\ /___\   
-                           Author: SonicExE
-                            Version: 1.4.7
+                           Author: SonicExE404
+                            Version: 1.1
 ```
 
 # Social_Checker
