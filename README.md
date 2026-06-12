@@ -20,7 +20,7 @@
 ```
 
 # Social_Checker
-just a simple tool for bug hunters to check unclaimed social accounts for (Social Media Account Takeover) bug.
+just a simple tool for bug hunters written with python to check unclaimed social accounts for (Social Media Account Takeover) bug.
 
 # social Media
 For now the tool can detect unclaimed :
