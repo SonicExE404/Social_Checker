@@ -31,7 +31,19 @@ For now the tool can detect unclaimed :
  -   LinkedIN
 
 ## Usage
-
+- download the tool :
+  
+  ```bash
+  git clone https://github.com/SonicExE404/Social_Checker.git
+  ```
+  
+- download requirements :
+  
+  ```bash
+  pip install -r requirements.txt
+  ```
+- args :
+  
 Short Form    | Long Form     | Description
 ------------- | ------------- |-------------
 -u            | --url         | check social pages in one url , form : http://example.com/
@@ -40,5 +52,7 @@ Short Form    | Long Form     | Description
 -h            | --help        | to show help msg
 
 you can use html.html page which contain all of social account the tool capable of to detect.
-##issues?
+
+## issues?
+
 if you find any issue or suggetions feel free to post in https://github.com/SonicExE404/Social_Checker/issues
